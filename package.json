@@ -1,0 +1,11 @@
+{
+  "name": "khai-project-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "python3 scripts/validate.py",
+    "start": "python3 -m http.server 8777 --directory site --bind 127.0.0.1"
+  }
+}

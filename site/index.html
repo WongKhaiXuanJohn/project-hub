@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#244b3c">
+  <meta name="description" content="Khai's project hub. A growing collection of useful tools, playful experiments, and things built along the way.">
+  <title>Khai — Project Hub</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to projects</a>
+  <aside class="sidebar" aria-label="Workspace navigation">
+    <a class="brand" href="#all" aria-label="Khai home"><span class="brand-mark">k<span>·</span></span><span>khai<span class="brand-period">.</span><small>THE PROJECT SPACE</small></span></a>
+    <div class="workspace-label">YOUR LITTLE CORNER OF THE INTERNET</div>
+    <nav class="navigation" aria-label="Main navigation">
+      <span class="nav-caption">WORKSPACE</span>
+      <a class="nav-link active" href="#all" data-view="all"><span data-icon="grid"></span>All projects<span class="nav-count" id="all-count">—</span></a>
+      <a class="nav-link" href="#favorites" data-view="favorites"><span data-icon="star"></span>Favorites<span class="nav-count" id="favorite-count">0</span></a>
+      <a class="nav-link" href="#live" data-view="live"><span data-icon="radio"></span>Live projects<span class="status-dot"></span></a>
+      <span class="nav-caption second-caption">A LITTLE CONTEXT</span>
+      <a class="nav-link" href="#about" id="about-link"><span data-icon="compass"></span>About this space</a>
+      <a class="nav-link" href="https://github.com/WongKhaiXuanJohn" target="_blank" rel="noopener noreferrer"><span data-icon="github"></span>On GitHub<span class="external-small">↗</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="sidebar-note"><span class="note-spark">✳</span><p>Always a work<br>in progress.</p><small>And that's the good part.</small></div>
+      <div class="profile"><span class="avatar">K</span><span>Khai<small>Making things, one idea at a time.</small></span></div>
+    </div>
+  </aside>
+
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb"><span>Workspace</span><span class="slash">/</span><strong id="breadcrumb-current">Overview</strong></div><div class="topbar-right"><span class="public-label"><span class="status-dot"></span>A public collection</span><a class="icon-link" href="https://github.com/WongKhaiXuanJohn" target="_blank" rel="noopener noreferrer" aria-label="Visit Khai on GitHub"><span data-icon="github"></span></a></div></header>
+    <main id="main" tabindex="-1">
+      <section class="intro" aria-labelledby="page-title">
+        <div><p class="eyebrow"><span class="tiny-line"></span>IDEAS, MADE REAL</p><h1 id="page-title">Many ideas.<br>One home<span class="orange-period">.</span></h1><p class="intro-copy">A growing collection of tools, experiments, and things<br class="desktop-break"> I’ve built along the way. Find something useful. Stay curious.</p><a class="intro-action" href="#projects">Explore the projects <span>↘</span></a></div>
+        <div class="intro-art" aria-hidden="true"><svg viewBox="0 0 300 265" fill="none"><ellipse cx="153" cy="219" rx="101" ry="17" fill="#263f3010"/><g transform="rotate(-12 147 130)"><rect x="76" y="53" width="135" height="164" rx="6" fill="#d9dfca" stroke="#b6bda5"/><path d="M94 81h52M94 92h77M94 191h55" stroke="#939f83" stroke-width="3" stroke-linecap="round"/></g><g transform="rotate(9 155 135)"><rect x="92" y="48" width="135" height="164" rx="6" fill="#faf9f2" stroke="#bac1af"/><path d="M111 76h36M111 87h65" stroke="#bbc2b1" stroke-width="3" stroke-linecap="round"/><path d="M157 107v65m-28-49 56 33m-56 0 56-33" stroke="#315845" stroke-width="13"/><path d="M110 190h42" stroke="#bbc2b1" stroke-width="3" stroke-linecap="round"/></g><circle cx="233" cy="56" r="27" fill="#dc774c"/><path d="m224 56 6 6 12-14" stroke="#fff8e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="m49 108 5 9 10 2-9 5-2 10-5-9-10-2 9-5 2-10Z" fill="#ddaa62"/><path d="M253 161v17m-8-8h17" stroke="#84967d" stroke-width="2"/><path d="M37 196q-8-28 16-39" stroke="#a6af97" stroke-dasharray="3 5"/><path d="m44 156 11-1-2 10" stroke="#a6af97" stroke-linecap="round"/></svg><span>GOOD THINGS START SOMEWHERE.</span></div>
+      </section>
+
+      <section class="collection-strip" aria-label="Collection at a glance"><div><strong id="stat-projects">—</strong><span>projects & counting</span></div><span class="stat-divider"></span><div><strong id="stat-categories">—</strong><span>different directions</span></div><span class="strip-message"><span class="status-dot"></span>Built with curiosity. Shared with you.</span></section>
+
+      <section class="featured-section" id="featured-section" aria-labelledby="featured-title" hidden>
+        <div class="section-kicker"><span>IN THE SPOTLIGHT</span><span>01 / A USEFUL LITTLE WORKSPACE</span></div>
+        <a class="featured" id="featured-link" href="#"><div class="featured-copy"><span class="featured-label"><span data-icon="spark"></span> FEATURED PROJECT</span><h2 id="featured-title">Little tools.<br>Smoother days.</h2><p>One workspace for the things that keep<br class="desktop-break"> a studio running.</p><span class="featured-cta">Explore Carve Workspace <span>↗</span></span></div><div class="featured-art" aria-hidden="true"><span class="art-line line-one"></span><span class="art-line line-two"></span><div class="studio-paper paper-back"></div><div class="studio-paper paper-front"><span class="paper-caption">THE EVERYDAY, SIMPLIFIED.</span><strong>carve<span>®</span></strong><span class="paper-rule"></span><div class="paper-tool"><span>01</span>Studio tools<span>↗</span></div><div class="paper-tool"><span>02</span>Made to flow<span>↗</span></div><div class="paper-bottom">A LITTLE LESS ADMIN.<br>A LITTLE MORE ROOM TO CREATE.</div></div><span class="round-stamp">MADE FOR<br>THE EVERYDAY<span>✳</span></span></div><span class="featured-number">PROJECT / 001</span></a>
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="projects-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="projects-title">All projects <span class="heading-count" id="heading-count">—</span></h2><p id="view-description">Different ideas. Same curiosity.</p></div><button class="button button-dark" id="add-project"><span data-icon="plus"></span>Add a project</button></div>
+        <div class="project-controls"><div class="category-filters" id="category-filters" aria-label="Filter projects by category"></div><div class="display-controls"><label class="search-box"><span data-icon="search"></span><input id="project-search" type="search" placeholder="Find a project…" aria-label="Search projects" autocomplete="off"><kbd>/</kbd></label><div class="view-toggle" role="group" aria-label="Project layout"><button class="selected" id="grid-view" aria-label="Grid layout" aria-pressed="true"><span data-icon="grid"></span></button><button id="list-view" aria-label="List layout" aria-pressed="false"><span data-icon="list"></span></button></div></div></div>
+        <div class="results-bar"><span id="results-label" role="status" aria-live="polite">Loading the collection…</span><label>Sort by <select id="sort-order" aria-label="Sort projects"><option value="featured">Collection order</option><option value="name">Name, A–Z</option></select></label></div>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span class="empty-symbol">✳</span><h3 id="empty-title">A little too specific?</h3><p id="empty-copy">Try another search or give the filters a fresh start.</p><button class="button button-light" id="reset-filters">Show all projects <span>↗</span></button></div>
+        <div class="load-error" id="load-error" role="alert" hidden><h3>The collection couldn’t load.</h3><p>Please refresh the page to try again.</p><button class="button button-light" id="retry-load">Try again</button></div>
+        <noscript><div class="empty-state"><h3>The collection</h3><p><a href="https://wongkhaixuanjohn.github.io/carve-workspace/">Carve Workspace</a> · <a href="https://wongkhaixuanjohn.github.io/ironpath/">Ironpath</a> · <a href="https://wongkhaixuanjohn.github.io/avalon-virtual-narator/">Avalon</a></p><p>Enable JavaScript to search, filter, and save favorites.</p></div></noscript>
+      </section>
+
+      <section class="next-idea"><div class="next-icon" aria-hidden="true">✳</div><div><p class="eyebrow">THERE’S ALWAYS ROOM FOR ONE MORE</p><h2>The next idea belongs here.</h2><p>A useful tool. A weekend experiment. Something that doesn’t have a name yet.</p></div><button class="text-button" id="next-project">Make some room <span>↗</span></button></section>
+      <footer><span><strong>khai.</strong> A space for things in the making.</span><span>Built a little at a time. <span class="footer-flower">✳</span> <span id="current-year"></span></span></footer>
+    </main>
+  </div>
+
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">A CLOSER LOOK</span><button class="close-dialog icon-button" aria-label="Close project details"><span data-icon="close"></span></button></div><div id="dialog-body"></div></dialog>
+  <dialog id="guide-dialog" aria-labelledby="guide-title"><div class="dialog-top"><span class="eyebrow">GROW THE COLLECTION</span><button class="close-dialog icon-button" aria-label="Close project guide"><span data-icon="close"></span></button></div><span class="dialog-flower">✳</span><h2 id="guide-title">A home for your next idea.</h2><p>Add a project to the shared catalog in GitHub. Once the change is published, it’s here for everyone.</p><ol class="guide-steps"><li><span>01</span><div><strong>Give it a place.</strong><p>Keep it on its own website, or put a static project in <code>site/projects/your-project/</code>.</p></div></li><li><span>02</span><div><strong>Add it to the collection.</strong><p>Add its name, description, category, and link to <code>site/projects.json</code>.</p></div></li><li><span>03</span><div><strong>Push it live.</strong><p>Commit to the default branch. GitHub Pages publishes the updated hub automatically once enabled.</p></div></li></ol><a class="button button-dark guide-github" href="https://github.com/WongKhaiXuanJohn/project-hub/edit/master/site/projects.json" target="_blank" rel="noopener noreferrer"><span data-icon="github"></span>Edit the project catalog <span>↗</span></a><p class="dialog-footnote">This public page doesn’t write to GitHub or store your projects in a browser.</p></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-top"><span class="eyebrow">ABOUT THIS SPACE</span><button class="close-dialog icon-button" aria-label="Close about this space"><span data-icon="close"></span></button></div><span class="dialog-flower">✳</span><h2 id="about-title">A place for the things I make.</h2><p>This is Khai’s project space: a single home for useful tools, small experiments, and whatever comes next.</p><p>Some projects make everyday work simpler. Others start with a game, a habit, or a question. They all have a place here.</p><div class="about-note"><strong>Make it yours, a little.</strong><p>Star projects to keep them in Favorites. Favorites and layout choices stay in this browser, on this device.</p></div><a class="button button-dark" href="https://github.com/WongKhaiXuanJohn" target="_blank" rel="noopener noreferrer"><span data-icon="github"></span>Find me on GitHub <span>↗</span></a></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

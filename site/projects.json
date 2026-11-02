@@ -1,0 +1,38 @@
+[
+  {
+    "id": "carve",
+    "name": "Carve Workspace",
+    "description": "A shared home for studio operations. Heater schedules, receipts, and the everyday tools that keep things moving.",
+    "category": "Tools",
+    "status": "Live",
+    "tags": ["Studio operations", "Productivity"],
+    "url": "https://wongkhaixuanjohn.github.io/carve-workspace/",
+    "source": "https://github.com/WongKhaiXuanJohn/carve-workspace",
+    "theme": "carve",
+    "featured": true
+  },
+  {
+    "id": "ironpath",
+    "name": "Ironpath",
+    "description": "A little more structure. A lot more progress. A personal workspace for training, nutrition, and the long game.",
+    "category": "Lifestyle",
+    "status": "Live",
+    "tags": ["Fitness", "Progress tracking"],
+    "url": "https://wongkhaixuanjohn.github.io/ironpath/",
+    "source": "https://github.com/WongKhaiXuanJohn/ironpath",
+    "theme": "ironpath",
+    "featured": false
+  },
+  {
+    "id": "avalon",
+    "name": "Avalon",
+    "description": "Everyone gets a seat at the table. A virtual narrator that guides your next game of The Resistance: Avalon.",
+    "category": "Games",
+    "status": "Live",
+    "tags": ["Board games", "Voice narration"],
+    "url": "https://wongkhaixuanjohn.github.io/avalon-virtual-narator/",
+    "source": "https://github.com/WongKhaiXuanJohn/avalon-virtual-narator",
+    "theme": "avalon",
+    "featured": false
+  }
+]
