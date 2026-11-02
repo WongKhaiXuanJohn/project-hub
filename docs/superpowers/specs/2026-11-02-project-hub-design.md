@@ -8,7 +8,7 @@ Use static HTML, CSS, and native JavaScript, published with GitHub Pages. A full
 
 ## Experience
 
-A restrained cream, forest-green, and orange workspace. Desktop sidebar, mobile navigation, a large introductory heading, featured project, searchable and filterable project cards, favorites stored on the visitor's device, and grid/list layouts. Project details open in an accessible dialog. A guide explains how new projects join the hub.
+An editorial workspace with warm ivory, charcoal, and muted champagne; a dark sidebar, refined serif typography, fine borders, and an engraved-style monogram. Refined from the initial sage palette following the user’s request for a premium, high-class luxury feel distinct from Ironpath. Desktop sidebar, mobile navigation, a large introductory heading, featured project, searchable and filterable project cards, favorites stored on the visitor's device, and grid/list layouts. Project details open in an accessible dialog. A guide explains how new projects join the hub.
 
 Seed only three confirmed public repositories: Avalon, Ironpath, and Carve Workspace. Do not copy private projects, personal fitness records, credentials, local absolute paths, or other workspace content into the public site.
 
