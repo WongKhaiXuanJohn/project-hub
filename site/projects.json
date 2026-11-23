@@ -34,5 +34,16 @@
     "source": "https://github.com/WongKhaiXuanJohn/avalon-virtual-narator",
     "theme": "avalon",
     "featured": false
+  },
+  {
+    "id": "market-replay",
+    "name": "Market Replay",
+    "description": "Follow oil and gas prices, catch up on AI releases, and replay the trading days that moved energy markets. Explore each chart and check its original source.",
+    "category": "Tools",
+    "status": "Live",
+    "tags": ["Energy markets", "AI news"],
+    "url": "https://market-replay-energy-ai.wkxj.chatgpt.site",
+    "theme": "generic",
+    "featured": false
   }
 ]
