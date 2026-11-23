@@ -1,0 +1,138 @@
+/* The energy board shares its chart controls with the full benchmark history. */
+.board-lead {
+  display: grid;
+  grid-template-columns: minmax(0, 1.86fr) minmax(265px, .9fr);
+  gap: 16px;
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+.board-focus, .board-oil {
+  min-width: 0;
+  border: 1px solid #363638;
+  border-radius: 12px;
+  background: #17191c;
+}
+.board-focus {
+  padding: clamp(16px, 2.1vw, 29px);
+  background: radial-gradient(ellipse at 6% -10%, #38271e 0, transparent 56%), #18191a;
+}
+.board-focus .mk-inspect {margin-bottom:0; padding-bottom:0; border-bottom:0}
+.board-focus[hidden], .board-empty[hidden] {display:none}
+.board-oil {padding:clamp(17px, 2.1vw, 29px)}
+.board-kicker {
+  color: #eab29b;
+  font: 600 11px/1.4 var(--mono);
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.focus-summary {display:flex; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; gap:16px}
+.focus-head {min-width:0; flex:1 1 205px}
+.focus-head label {display:block; margin-bottom:.5rem; font-size:.75rem; letter-spacing:.08em}
+/* WebKit uses the select's own font to size the native menu. */
+.focus-select {
+  display:block;
+  max-width:100%;
+  min-height:2.5rem;
+  padding:.45rem 2.25rem .45rem .75rem;
+  border:1px solid #565252;
+  border-radius:6px;
+  color:var(--fg);
+  background:#222224 url("data:image/svg+xml,%3Csvg width='12' height='8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23d4c5bb' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right .75rem center;
+  color-scheme:dark;
+  appearance:none;
+  cursor:pointer;
+  font:400 1rem/1.375 var(--sans);
+  letter-spacing:normal;
+  text-overflow:ellipsis;
+}
+.focus-select:hover {border-color:#8b7569}
+.focus-select option {font:inherit;color:var(--fg);background:#1b1d20}
+.focus-citation {display:flex; flex-wrap:wrap; gap:5px 9px; align-items:center; margin-top:8px; color:#bdb5af; font:12px/1.5 var(--mono)}
+.focus-citation a {color:inherit; font:inherit; text-decoration:underline; text-decoration-color:#6f655e}
+.focus-citation span {border-left:1px solid #63534a; padding-left:9px}
+.focus-quote {display:flex; align-items:baseline; justify-content:flex-end; flex-wrap:wrap; column-gap:7px; max-width:100%; text-align:right}
+.focus-quote strong {font:500 clamp(1.75rem,2.65vw,2.5rem)/1.1 var(--mono); letter-spacing:-.07em; color:#ffdcc6}
+.focus-unit {color:#c7bcb4; font:12px/1.3 var(--mono)}
+.focus-change {display:block; flex-basis:100%; font:600 13px/1.6 var(--mono); margin-top:4px}
+.focus-change.rising {color:var(--green)}
+.focus-change.falling {color:var(--red)}
+.focus-change small {color:#b7b5b0; font-size:.75rem; font-weight:400}
+.oil-panel {height:100%; display:flex; flex-direction:column; justify-content:center; min-width:0}
+.oil-panel h2 {font-size:clamp(22px,2.1vw,31px); margin:5px 0 17px}
+.oil-ref {padding-block:15px 14px; border-top:1px solid var(--line)}
+.oil-ref:last-child {padding-bottom:0}
+.oil-ref-name {display:flex; align-items:baseline; justify-content:space-between; gap:12px}
+.oil-ref-name strong {font-size:clamp(18px,1.45vw,23px); letter-spacing:-.045em; line-height:1.2; font-weight:600}
+.oil-ref-name span {font-size:12px; color:#b4b3ae; text-align:right}
+.oil-ref-links {display:flex; flex-wrap:wrap; align-items:center; gap:6px 12px; margin-top:6px}
+.oil-ref-links .mk-link {display:inline-block; padding-block:4px; margin:0; color:#f6b08e; font-size:13px; font-weight:520; text-decoration:underline; text-underline-offset:3px; text-decoration-color:#6e4d3f}
+.oil-ref-links .mk-link:hover,.focus-citation a:hover,.b-name .mk-link:hover {color:#ffcdaf; text-decoration-color:currentColor}
+.brief-card .oil-panel {height:auto; flex:1; justify-content:flex-start; padding-bottom:18px}
+.board-tools {display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin:0 0 15px}
+.board-tabs {display:flex; gap:2px; border:1px solid var(--line); background:#121416; padding:3px; border-radius:8px; flex-wrap:wrap}
+.board-tab {display:flex; align-items:center; justify-content:center; gap:7px; min-height:35px; padding:7px 12px; background:transparent; border:0; border-radius:5px; color:#c2c0bc; font-size:14px; line-height:1.1}
+.board-tab small {font:11px var(--mono); opacity:.8}
+.board-tab[aria-pressed=true] {color:#ffcdad; background:#432e23; box-shadow:inset 0 0 0 1px #79523c}
+.board-tab:hover:not([aria-pressed=true]) {background:#252527; color:white}
+.board-controls {display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.board-controls .mk-search,.board-controls .mk-select {min-height:40px; font-size:14px}
+.board-controls .mk-search {width:clamp(9rem,15vw,12.2rem);max-width:100%}
+.board-table-wrap {overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:#131518}
+.board-table {width:100%}
+.board-table th, .board-table th:first-child {background:#1d1f22; color:#c0beb7; padding:12px 15px; font:normal 11px/1.35 var(--mono); letter-spacing:.05em; text-transform:uppercase}
+.board-table td, .board-table td:first-child {padding:13px 15px}
+.board-table .mk-open {font-weight:550}
+.board-table .b-name {width:31%}
+.b-name .mk-link {color:#a7a9a8; font-size:12px; line-height:1.4; text-decoration:underline; text-decoration-color:#494c4c; text-underline-offset:3px}
+.board-table .b-price strong, .board-table .b-change > span {font:500 16px/1.3 var(--mono); letter-spacing:-.045em}
+.board-table .b-price small, .board-table .b-change small, .board-table .b-time small {font-size:12px; color:#b0afab; font-weight:400}
+.b-trend .mk-mini {width:85px; color:#d3aa91}
+.b-time > span {font-size:14px}
+.board-footer {margin-top:11px; color:var(--muted); font:12px/1.5 var(--mono)}
+.board-empty {padding:22px 16px; color:var(--muted); text-align:center}
+.board-empty button {margin-top:12px}
+@media (max-width:950px) {
+  .board-lead {grid-template-columns:minmax(0,1.65fr) minmax(230px,1fr)}
+  .board-tools {align-items:stretch}
+  .focus-head {flex-basis:165px}
+}
+@media (max-width:730px) {
+  .board-lead {grid-template-columns:1fr;gap:12px}
+  .board-oil {padding:16px}
+  .board-oil .oil-panel {display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:14px}
+  .board-oil .board-kicker,.board-oil h2,.board-oil .crude-launch {grid-column:1/-1}
+  .board-oil h2 {margin-bottom:10px}
+  .board-oil .oil-ref {padding:10px 0 0}
+  .board-oil .oil-ref-name {align-items:flex-start;flex-direction:column;gap:1px}
+  .board-controls {width:100%;flex-wrap:nowrap}
+  .board-controls .mk-search {min-width:0; max-width:none;flex:1}
+  .board-controls .mk-select {max-width:48%}
+  .board-table .b-trend,.board-table th:nth-child(4) {display:none}
+}
+@media (max-width:550px) {
+  .focus-quote {justify-content:flex-start; text-align:left}
+  .focus-summary {gap:10px}
+  .board-tab {padding:7px 9px}
+  .board-tabs {width:100%;flex-wrap:nowrap}
+  .board-tab {flex:1;gap:4px}
+  .board-table, .board-table tbody {display:block}
+  .board-table thead {position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%)}
+  .board-table tbody tr {display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"market price" "date move";gap:5px 8px;padding:12px 13px;border-top:1px solid var(--line)}
+  .board-table tbody tr:first-child {border-top:0}
+  .board-table td,.board-table td:first-child {padding:0; border:0; min-width:0}
+  .board-table .b-name {grid-area:market; width:auto}
+  .board-table .b-price {grid-area:price; text-align:right}
+  .board-table .b-change {grid-area:move;display:block;align-self:end;text-align:right;white-space:normal}
+  .board-table .b-time {grid-area:date;align-self:end}
+  .board-table .b-time > span {font-size:12px}
+  .board-table .b-change > span {font-size:13px}
+  .board-table .b-change small,.board-table .b-time small {font-size:11px;margin-top:0}
+  .board-table .b-price small {margin-top:0}
+}
+
+@media (pointer:coarse) {
+  .focus-select,.board-controls .mk-search,.board-controls .mk-select {min-height:2.75rem;font-size:1rem}
+  .board-tab {min-height:2.75rem}
+}
+@media (forced-colors:active) {
+  .focus-select {appearance:auto;background-image:none}
+}

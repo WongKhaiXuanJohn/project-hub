@@ -40,7 +40,7 @@ Add an entry to `site/projects.json`:
 }
 ```
 
-For a project hosted elsewhere, use its HTTPS URL. To keep a static project within this website, add its files at `site/projects/your-project/index.html` and use relative assets. Categories are generated from the catalog, and project counts update automatically. IDs must be unique lowercase slugs. Valid status values are `Live`, `Building`, and `Archived`. Available artwork themes are `carve`, `ironpath`, `avalon`, and `generic`.
+For a project hosted elsewhere, use its HTTPS URL. To keep a static project within this website, add its files at `site/projects/your-project/index.html` and use relative assets. Categories are generated from the catalog, and project counts update automatically. IDs must be unique lowercase slugs. Valid status values are `Live`, `Building`, and `Archived`. Available artwork themes are `carve`, `ironpath`, `avalon`, `market-replay`, and `generic`.
 
 The initial spotlight is designed for Carve Workspace. If replacing that spotlight, update its headline and illustration in `site/index.html` as well as the catalog. To remove it, set all `featured` flags to `false`.
 
@@ -54,7 +54,7 @@ GitHub Pages serves static files. Python, Streamlit, databases, and private serv
 - Save favorites locally on this browser/device. No account or shared database.
 - Open project details, live websites, and source repositories.
 - Keyboard support, native dialogs, responsive layouts, and reduced-motion support.
-- Optional Google Fonts typography with system-font fallbacks; project artwork is local SVG/CSS.
+- Optional Google Fonts typography with system-font fallbacks; project artwork uses local SVG, CSS, and WebP assets.
 
 ## Checks
 

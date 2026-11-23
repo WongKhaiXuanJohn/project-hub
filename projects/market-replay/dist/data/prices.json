@@ -1,0 +1,2684 @@
+[
+  {
+    "id": "brent",
+    "name": "Brent crude",
+    "group": "Crude oil",
+    "unit": "USD/bbl",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 63.6,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 62.7,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 66.8,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 71.1,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 103.7,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 120.4,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 107.5,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 85.4,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 83.4,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 90.9,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 116.8,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 125,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average for UK Brent crude (38° API), published in US dollars per barrel."
+  },
+  {
+    "id": "wti",
+    "name": "WTI crude",
+    "group": "Crude oil",
+    "unit": "USD/bbl",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 59.6,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 57.9,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 60.3,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 64.6,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 91.2,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 98.6,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 99.1,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 81.9,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 79.4,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 82.7,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 96.9,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 97.7,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average for West Texas Intermediate crude (40° API), published in US dollars per barrel."
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai Fateh",
+    "group": "Crude oil",
+    "unit": "USD/bbl",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 63.8,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 62,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 63.9,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 68.4,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 91.9,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 92.7,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 94.7,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 77.7,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 76.7,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 79.7,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 93.3,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 102.7,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average for Dubai Fateh crude (32° API), published in US dollars per barrel."
+  },
+  {
+    "id": "henry",
+    "name": "Henry Hub",
+    "group": "Natural gas",
+    "unit": "USD/MMBtu",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 3.79,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 4.25,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 7.58,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 3.61,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 3.06,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 2.77,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 2.93,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 3.15,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 2.89,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 2.77,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 2.95,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 2.96,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average of spot gas prices at Henry Hub, Louisiana."
+  },
+  {
+    "id": "ttf",
+    "name": "Dutch TTF",
+    "group": "Natural gas",
+    "unit": "USD/MMBtu",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 10.42,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 9.48,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 11.76,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 11.24,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 17.91,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 15.41,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 16.17,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 15.17,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 18.06,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 21.11,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 25.42,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 28.5,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average of European natural gas prices at the Netherlands Title Transfer Facility."
+  },
+  {
+    "id": "japanlng",
+    "name": "Japan LNG imports",
+    "group": "LNG",
+    "unit": "USD/MMBtu",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 11.15,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 11.32,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 11.29,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 11.32,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 11.42,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 11.67,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 12.88,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 11.79,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 11.8,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 15.27,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 16.26,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 16.59,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average Japanese LNG import price including cost, insurance and freight. The World Bank estimates the latest two monthly averages."
+  },
+  {
+    "id": "newcastle",
+    "name": "Newcastle coal",
+    "group": "Coal",
+    "unit": "USD/t",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 112.6,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 107.7,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 109.8,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 118.4,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 138.6,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 130.9,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 136.9,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 138.5,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 131.9,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 135.2,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 147.1,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 152.3,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average for 6,000 kcal/kg Australian thermal coal futures, free on board at Newcastle."
+  },
+  {
+    "id": "richards",
+    "name": "Richards Bay coal",
+    "group": "Coal",
+    "unit": "USD/t",
+    "cadence": "Monthly",
+    "source": "World Bank Pink Sheet",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "history": [
+      {
+        "date": "2025-11-30",
+        "value": 91.6,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "value": 90.9,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-01-31",
+        "value": 90.6,
+        "publishedOn": "2026-02-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-February-2026.pdf"
+      },
+      {
+        "date": "2026-02-28",
+        "value": 91.2,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-03-31",
+        "value": 93.8,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-04-30",
+        "value": 94.8,
+        "publishedOn": "2026-05-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-May-2026.pdf"
+      },
+      {
+        "date": "2026-05-31",
+        "value": 95.6,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-06-30",
+        "value": 96.3,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-07-31",
+        "value": 96.3,
+        "publishedOn": "2026-08-04",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-August-2026.pdf"
+      },
+      {
+        "date": "2026-08-31",
+        "value": 96.8,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-09-30",
+        "value": 98.2,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 100,
+        "publishedOn": "2026-11-03",
+        "sourceUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf"
+      }
+    ],
+    "note": "Monthly average for next-month delivery of 6,000 kcal/kg South African coal, free on board at Richards Bay."
+  },
+  {
+    "id": "nwe",
+    "name": "Northwest Europe LNG",
+    "group": "LNG",
+    "unit": "EUR/MWh",
+    "cadence": "Weekday",
+    "source": "ACER",
+    "url": "https://aegis.acer.europa.eu/terminal/price_assessments",
+    "history": [
+      {
+        "date": "2026-07-30",
+        "value": 59.08
+      },
+      {
+        "date": "2026-07-31",
+        "value": 58.738
+      },
+      {
+        "date": "2026-08-03",
+        "value": 58.8
+      },
+      {
+        "date": "2026-08-04",
+        "value": 58.598
+      },
+      {
+        "date": "2026-08-05",
+        "value": 56.337
+      },
+      {
+        "date": "2026-08-06",
+        "value": 55.473
+      },
+      {
+        "date": "2026-08-07",
+        "value": 55.069
+      },
+      {
+        "date": "2026-08-10",
+        "value": 54.865
+      },
+      {
+        "date": "2026-08-11",
+        "value": 54.809
+      },
+      {
+        "date": "2026-08-12",
+        "value": 58.094
+      },
+      {
+        "date": "2026-08-13",
+        "value": 58.724
+      },
+      {
+        "date": "2026-08-14",
+        "value": 59.68
+      },
+      {
+        "date": "2026-08-17",
+        "value": 60.192
+      },
+      {
+        "date": "2026-08-18",
+        "value": 60.237
+      },
+      {
+        "date": "2026-08-19",
+        "value": 61.161
+      },
+      {
+        "date": "2026-08-20",
+        "value": 62.227
+      },
+      {
+        "date": "2026-08-21",
+        "value": 62.25
+      },
+      {
+        "date": "2026-08-24",
+        "value": 62.737
+      },
+      {
+        "date": "2026-08-25",
+        "value": 62.772
+      },
+      {
+        "date": "2026-08-26",
+        "value": 62.749
+      },
+      {
+        "date": "2026-08-27",
+        "value": 63.871
+      },
+      {
+        "date": "2026-08-28",
+        "value": 65.194
+      },
+      {
+        "date": "2026-08-31",
+        "value": 65.99
+      },
+      {
+        "date": "2026-09-01",
+        "value": 65.996
+      },
+      {
+        "date": "2026-09-02",
+        "value": 69.807
+      },
+      {
+        "date": "2026-09-03",
+        "value": 70.696
+      },
+      {
+        "date": "2026-09-04",
+        "value": 70.563
+      },
+      {
+        "date": "2026-09-07",
+        "value": 70.156
+      },
+      {
+        "date": "2026-09-08",
+        "value": 71.037
+      },
+      {
+        "date": "2026-09-09",
+        "value": 72.291
+      },
+      {
+        "date": "2026-09-10",
+        "value": 73.549
+      },
+      {
+        "date": "2026-09-11",
+        "value": 75.475
+      },
+      {
+        "date": "2026-09-14",
+        "value": 75.469
+      },
+      {
+        "date": "2026-09-15",
+        "value": 79.616
+      },
+      {
+        "date": "2026-09-16",
+        "value": 80.641
+      },
+      {
+        "date": "2026-09-17",
+        "value": 80.669
+      },
+      {
+        "date": "2026-09-18",
+        "value": 78.404
+      },
+      {
+        "date": "2026-09-21",
+        "value": 78.413
+      },
+      {
+        "date": "2026-09-22",
+        "value": 78.33
+      },
+      {
+        "date": "2026-09-23",
+        "value": 73.371
+      },
+      {
+        "date": "2026-09-24",
+        "value": 73.366
+      },
+      {
+        "date": "2026-09-25",
+        "value": 73.351
+      },
+      {
+        "date": "2026-09-28",
+        "value": 74.872
+      },
+      {
+        "date": "2026-09-29",
+        "value": 71.855
+      },
+      {
+        "date": "2026-09-30",
+        "value": 71.333
+      },
+      {
+        "date": "2026-10-01",
+        "value": 69.503
+      },
+      {
+        "date": "2026-10-02",
+        "value": 70.773
+      },
+      {
+        "date": "2026-10-05",
+        "value": 71.865
+      },
+      {
+        "date": "2026-10-06",
+        "value": 71.928
+      },
+      {
+        "date": "2026-10-07",
+        "value": 73.996
+      },
+      {
+        "date": "2026-10-08",
+        "value": 73.687
+      },
+      {
+        "date": "2026-10-09",
+        "value": 76.037
+      },
+      {
+        "date": "2026-10-12",
+        "value": 77.75
+      },
+      {
+        "date": "2026-10-13",
+        "value": 79.223
+      },
+      {
+        "date": "2026-10-14",
+        "value": 80.491
+      },
+      {
+        "date": "2026-10-15",
+        "value": 81.096
+      },
+      {
+        "date": "2026-10-16",
+        "value": 82.426
+      },
+      {
+        "date": "2026-10-19",
+        "value": 82.836
+      },
+      {
+        "date": "2026-10-20",
+        "value": 82.795
+      },
+      {
+        "date": "2026-10-21",
+        "value": 85.494
+      },
+      {
+        "date": "2026-10-22",
+        "value": 85.725
+      },
+      {
+        "date": "2026-10-23",
+        "value": 85.759
+      },
+      {
+        "date": "2026-10-26",
+        "value": 87.156
+      },
+      {
+        "date": "2026-10-27",
+        "value": 87.19
+      },
+      {
+        "date": "2026-10-28",
+        "value": 95.573
+      },
+      {
+        "date": "2026-10-29",
+        "value": 96.581
+      },
+      {
+        "date": "2026-10-30",
+        "value": 97.588
+      },
+      {
+        "date": "2026-11-03",
+        "value": 98.827
+      },
+      {
+        "date": "2026-11-04",
+        "value": 92.64
+      },
+      {
+        "date": "2026-11-05",
+        "value": 90.314
+      },
+      {
+        "date": "2026-11-06",
+        "value": 89.677
+      },
+      {
+        "date": "2026-11-09",
+        "value": 89.504
+      },
+      {
+        "date": "2026-11-10",
+        "value": 85.542
+      },
+      {
+        "date": "2026-11-11",
+        "value": 85.215
+      },
+      {
+        "date": "2026-11-12",
+        "value": 85.256
+      },
+      {
+        "date": "2026-11-13",
+        "value": 85.746
+      },
+      {
+        "date": "2026-11-16",
+        "value": 86.448
+      },
+      {
+        "date": "2026-11-17",
+        "value": 86.395
+      },
+      {
+        "date": "2026-11-18",
+        "value": 86.319
+      },
+      {
+        "date": "2026-11-19",
+        "value": 84.962
+      },
+      {
+        "date": "2026-11-20",
+        "value": 80.483
+      }
+    ],
+    "note": "Physical LNG price assessment published on working days. Values per megawatt-hour."
+  },
+  {
+    "id": "southlng",
+    "name": "Southern Europe LNG",
+    "group": "LNG",
+    "unit": "EUR/MWh",
+    "cadence": "Weekday",
+    "source": "ACER",
+    "url": "https://aegis.acer.europa.eu/terminal/price_assessments",
+    "history": [
+      {
+        "date": "2026-07-30",
+        "value": 59.753
+      },
+      {
+        "date": "2026-07-31",
+        "value": 60.102
+      },
+      {
+        "date": "2026-08-03",
+        "value": 59.328
+      },
+      {
+        "date": "2026-08-04",
+        "value": 59.187
+      },
+      {
+        "date": "2026-08-05",
+        "value": 56.705
+      },
+      {
+        "date": "2026-08-06",
+        "value": 55.277
+      },
+      {
+        "date": "2026-08-07",
+        "value": 55.061
+      },
+      {
+        "date": "2026-08-10",
+        "value": 54.462
+      },
+      {
+        "date": "2026-08-11",
+        "value": 54.374
+      },
+      {
+        "date": "2026-08-12",
+        "value": 54.416
+      },
+      {
+        "date": "2026-08-13",
+        "value": 57.235
+      },
+      {
+        "date": "2026-08-14",
+        "value": 59.411
+      },
+      {
+        "date": "2026-08-17",
+        "value": 59.861
+      },
+      {
+        "date": "2026-08-18",
+        "value": 60.104
+      },
+      {
+        "date": "2026-08-19",
+        "value": 61.128
+      },
+      {
+        "date": "2026-08-20",
+        "value": 61.862
+      },
+      {
+        "date": "2026-08-21",
+        "value": 61.891
+      },
+      {
+        "date": "2026-08-24",
+        "value": 63.406
+      },
+      {
+        "date": "2026-08-25",
+        "value": 63.429
+      },
+      {
+        "date": "2026-08-26",
+        "value": 63.413
+      },
+      {
+        "date": "2026-08-27",
+        "value": 63.505
+      },
+      {
+        "date": "2026-08-28",
+        "value": 65.652
+      },
+      {
+        "date": "2026-08-31",
+        "value": 66
+      },
+      {
+        "date": "2026-09-01",
+        "value": 66.003
+      },
+      {
+        "date": "2026-09-02",
+        "value": 66.066
+      },
+      {
+        "date": "2026-09-03",
+        "value": 70.949
+      },
+      {
+        "date": "2026-09-04",
+        "value": 70.813
+      },
+      {
+        "date": "2026-09-07",
+        "value": 70.779
+      },
+      {
+        "date": "2026-09-08",
+        "value": 71.437
+      },
+      {
+        "date": "2026-09-09",
+        "value": 72.625
+      },
+      {
+        "date": "2026-09-10",
+        "value": 73.932
+      },
+      {
+        "date": "2026-09-11",
+        "value": 78.047
+      },
+      {
+        "date": "2026-09-14",
+        "value": 78.5
+      },
+      {
+        "date": "2026-09-15",
+        "value": 80.418
+      },
+      {
+        "date": "2026-09-16",
+        "value": 80.503
+      },
+      {
+        "date": "2026-09-17",
+        "value": 79.728
+      },
+      {
+        "date": "2026-09-18",
+        "value": 78.307
+      },
+      {
+        "date": "2026-09-21",
+        "value": 78.307
+      },
+      {
+        "date": "2026-09-22",
+        "value": 78.332
+      },
+      {
+        "date": "2026-09-23",
+        "value": 74.093
+      },
+      {
+        "date": "2026-09-24",
+        "value": 74.089
+      },
+      {
+        "date": "2026-09-25",
+        "value": 74.316
+      },
+      {
+        "date": "2026-09-28",
+        "value": 74.757
+      },
+      {
+        "date": "2026-09-29",
+        "value": 73.432
+      },
+      {
+        "date": "2026-09-30",
+        "value": 71.895
+      },
+      {
+        "date": "2026-10-01",
+        "value": 70.786
+      },
+      {
+        "date": "2026-10-02",
+        "value": 71.551
+      },
+      {
+        "date": "2026-10-05",
+        "value": 72.203
+      },
+      {
+        "date": "2026-10-06",
+        "value": 72.269
+      },
+      {
+        "date": "2026-10-07",
+        "value": 74.558
+      },
+      {
+        "date": "2026-10-08",
+        "value": 74.724
+      },
+      {
+        "date": "2026-10-09",
+        "value": 76.913
+      },
+      {
+        "date": "2026-10-12",
+        "value": 76.931
+      },
+      {
+        "date": "2026-10-13",
+        "value": 76.899
+      },
+      {
+        "date": "2026-10-14",
+        "value": 76.813
+      },
+      {
+        "date": "2026-10-15",
+        "value": 83.462
+      },
+      {
+        "date": "2026-10-16",
+        "value": 83.605
+      },
+      {
+        "date": "2026-10-19",
+        "value": 83.457
+      },
+      {
+        "date": "2026-10-20",
+        "value": 83.345
+      },
+      {
+        "date": "2026-10-21",
+        "value": 85.315
+      },
+      {
+        "date": "2026-10-22",
+        "value": 85.678
+      },
+      {
+        "date": "2026-10-23",
+        "value": 85.887
+      },
+      {
+        "date": "2026-10-26",
+        "value": 87.505
+      },
+      {
+        "date": "2026-10-27",
+        "value": 87.58
+      },
+      {
+        "date": "2026-10-28",
+        "value": 95.248
+      },
+      {
+        "date": "2026-10-29",
+        "value": 96.231
+      },
+      {
+        "date": "2026-10-30",
+        "value": 97.274
+      },
+      {
+        "date": "2026-11-03",
+        "value": 97.808
+      },
+      {
+        "date": "2026-11-04",
+        "value": 97.886
+      },
+      {
+        "date": "2026-11-05",
+        "value": 88.633
+      },
+      {
+        "date": "2026-11-06",
+        "value": 89.015
+      },
+      {
+        "date": "2026-11-09",
+        "value": 88.915
+      },
+      {
+        "date": "2026-11-10",
+        "value": 88.912
+      },
+      {
+        "date": "2026-11-11",
+        "value": 84.653
+      },
+      {
+        "date": "2026-11-12",
+        "value": 85.12
+      },
+      {
+        "date": "2026-11-13",
+        "value": 86.878
+      },
+      {
+        "date": "2026-11-16",
+        "value": 86.633
+      },
+      {
+        "date": "2026-11-17",
+        "value": 86.944
+      },
+      {
+        "date": "2026-11-18",
+        "value": 86.188
+      },
+      {
+        "date": "2026-11-19",
+        "value": 85.302
+      },
+      {
+        "date": "2026-11-20",
+        "value": 81.701
+      }
+    ],
+    "note": "Physical LNG price assessment published on working days. Values per megawatt-hour."
+  },
+  {
+    "id": "eulng",
+    "name": "EU-wide LNG",
+    "group": "LNG",
+    "unit": "EUR/MWh",
+    "cadence": "Weekday",
+    "source": "ACER",
+    "url": "https://aegis.acer.europa.eu/terminal/price_assessments",
+    "history": [
+      {
+        "date": "2026-07-30",
+        "value": 59.44
+      },
+      {
+        "date": "2026-07-31",
+        "value": 59.4
+      },
+      {
+        "date": "2026-08-03",
+        "value": 59.044
+      },
+      {
+        "date": "2026-08-04",
+        "value": 59.025
+      },
+      {
+        "date": "2026-08-05",
+        "value": 56.977
+      },
+      {
+        "date": "2026-08-06",
+        "value": 55.68
+      },
+      {
+        "date": "2026-08-07",
+        "value": 55.222
+      },
+      {
+        "date": "2026-08-10",
+        "value": 54.76
+      },
+      {
+        "date": "2026-08-11",
+        "value": 54.693
+      },
+      {
+        "date": "2026-08-12",
+        "value": 57.278
+      },
+      {
+        "date": "2026-08-13",
+        "value": 57.947
+      },
+      {
+        "date": "2026-08-14",
+        "value": 59.377
+      },
+      {
+        "date": "2026-08-17",
+        "value": 60.067
+      },
+      {
+        "date": "2026-08-18",
+        "value": 60.161
+      },
+      {
+        "date": "2026-08-19",
+        "value": 61.121
+      },
+      {
+        "date": "2026-08-20",
+        "value": 62.207
+      },
+      {
+        "date": "2026-08-21",
+        "value": 62.241
+      },
+      {
+        "date": "2026-08-24",
+        "value": 63.019
+      },
+      {
+        "date": "2026-08-25",
+        "value": 63.046
+      },
+      {
+        "date": "2026-08-26",
+        "value": 63.028
+      },
+      {
+        "date": "2026-08-27",
+        "value": 63.872
+      },
+      {
+        "date": "2026-08-28",
+        "value": 65.142
+      },
+      {
+        "date": "2026-08-31",
+        "value": 65.952
+      },
+      {
+        "date": "2026-09-01",
+        "value": 65.956
+      },
+      {
+        "date": "2026-09-02",
+        "value": 69.143
+      },
+      {
+        "date": "2026-09-03",
+        "value": 70.92
+      },
+      {
+        "date": "2026-09-04",
+        "value": 70.836
+      },
+      {
+        "date": "2026-09-07",
+        "value": 70.54
+      },
+      {
+        "date": "2026-09-08",
+        "value": 71.115
+      },
+      {
+        "date": "2026-09-09",
+        "value": 72.14
+      },
+      {
+        "date": "2026-09-10",
+        "value": 73.18
+      },
+      {
+        "date": "2026-09-11",
+        "value": 77.15
+      },
+      {
+        "date": "2026-09-14",
+        "value": 77.6
+      },
+      {
+        "date": "2026-09-15",
+        "value": 79.647
+      },
+      {
+        "date": "2026-09-16",
+        "value": 80.546
+      },
+      {
+        "date": "2026-09-17",
+        "value": 80.073
+      },
+      {
+        "date": "2026-09-18",
+        "value": 78.223
+      },
+      {
+        "date": "2026-09-21",
+        "value": 78.221
+      },
+      {
+        "date": "2026-09-22",
+        "value": 78.291
+      },
+      {
+        "date": "2026-09-23",
+        "value": 73.767
+      },
+      {
+        "date": "2026-09-24",
+        "value": 73.764
+      },
+      {
+        "date": "2026-09-25",
+        "value": 74.114
+      },
+      {
+        "date": "2026-09-28",
+        "value": 74.621
+      },
+      {
+        "date": "2026-09-29",
+        "value": 72.485
+      },
+      {
+        "date": "2026-09-30",
+        "value": 71.679
+      },
+      {
+        "date": "2026-10-01",
+        "value": 69.692
+      },
+      {
+        "date": "2026-10-02",
+        "value": 70.759
+      },
+      {
+        "date": "2026-10-05",
+        "value": 71.811
+      },
+      {
+        "date": "2026-10-06",
+        "value": 71.875
+      },
+      {
+        "date": "2026-10-07",
+        "value": 74.058
+      },
+      {
+        "date": "2026-10-08",
+        "value": 74.242
+      },
+      {
+        "date": "2026-10-09",
+        "value": 76.64
+      },
+      {
+        "date": "2026-10-12",
+        "value": 77.658
+      },
+      {
+        "date": "2026-10-13",
+        "value": 78.861
+      },
+      {
+        "date": "2026-10-14",
+        "value": 80.077
+      },
+      {
+        "date": "2026-10-15",
+        "value": 82.634
+      },
+      {
+        "date": "2026-10-16",
+        "value": 82.967
+      },
+      {
+        "date": "2026-10-19",
+        "value": 83.187
+      },
+      {
+        "date": "2026-10-20",
+        "value": 83.113
+      },
+      {
+        "date": "2026-10-21",
+        "value": 85.4
+      },
+      {
+        "date": "2026-10-22",
+        "value": 85.823
+      },
+      {
+        "date": "2026-10-23",
+        "value": 85.921
+      },
+      {
+        "date": "2026-10-26",
+        "value": 87.052
+      },
+      {
+        "date": "2026-10-27",
+        "value": 87.105
+      },
+      {
+        "date": "2026-10-28",
+        "value": 95.284
+      },
+      {
+        "date": "2026-10-29",
+        "value": 96.071
+      },
+      {
+        "date": "2026-10-30",
+        "value": 97.17
+      },
+      {
+        "date": "2026-11-03",
+        "value": 98.468
+      },
+      {
+        "date": "2026-11-04",
+        "value": 92.95
+      },
+      {
+        "date": "2026-11-05",
+        "value": 89.739
+      },
+      {
+        "date": "2026-11-06",
+        "value": 89.411
+      },
+      {
+        "date": "2026-11-09",
+        "value": 89.281
+      },
+      {
+        "date": "2026-11-10",
+        "value": 86.061
+      },
+      {
+        "date": "2026-11-11",
+        "value": 84.573
+      },
+      {
+        "date": "2026-11-12",
+        "value": 84.94
+      },
+      {
+        "date": "2026-11-13",
+        "value": 85.715
+      },
+      {
+        "date": "2026-11-16",
+        "value": 86.367
+      },
+      {
+        "date": "2026-11-17",
+        "value": 86.576
+      },
+      {
+        "date": "2026-11-18",
+        "value": 86.088
+      },
+      {
+        "date": "2026-11-19",
+        "value": 85.002
+      },
+      {
+        "date": "2026-11-20",
+        "value": 80.736
+      }
+    ],
+    "note": "Physical LNG price assessment published on working days. Values per megawatt-hour."
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney gas",
+    "group": "Natural gas",
+    "unit": "AUD/GJ",
+    "cadence": "Daily",
+    "source": "AEMO",
+    "url": "https://www.aemo.com.au/energy-systems/gas/short-term-trading-market-sttm/data-sttm/daily-sttm-reports",
+    "history": [
+      {
+        "date": "2026-02-09",
+        "value": 11.15,
+        "sourceUrl": "https://www.aemo.com.au/-/media/files/gas/sttm/market-notices/2026/sttm-event-report---administered-ex-post-state-for-gas-day-9-feb.pdf?rev=c4d5811aa65d41189cffc13027be1d67&sc_lang=en",
+        "publishedOn": "2026-03-20"
+      }
+    ],
+    "note": "Day-ahead wholesale gas price. The archived 9 February reading comes from AEMO’s STTM event report, Table 1."
+  },
+  {
+    "id": "brisbane",
+    "name": "Brisbane gas",
+    "group": "Natural gas",
+    "unit": "AUD/GJ",
+    "cadence": "Daily",
+    "source": "AEMO",
+    "url": "https://www.aemo.com.au/energy-systems/gas/short-term-trading-market-sttm/data-sttm/daily-sttm-reports",
+    "history": [
+      {
+        "date": "2026-02-09",
+        "value": 10.8623,
+        "sourceUrl": "https://www.aemo.com.au/-/media/files/gas/sttm/market-notices/2026/sttm-event-report---administered-ex-post-state-for-gas-day-9-feb.pdf?rev=c4d5811aa65d41189cffc13027be1d67&sc_lang=en",
+        "publishedOn": "2026-03-20"
+      }
+    ],
+    "note": "Day-ahead wholesale gas price. The archived 9 February reading comes from AEMO’s STTM event report, Table 1."
+  },
+  {
+    "id": "adelaide",
+    "name": "Adelaide gas",
+    "group": "Natural gas",
+    "unit": "AUD/GJ",
+    "cadence": "Daily",
+    "source": "AEMO",
+    "url": "https://www.aemo.com.au/energy-systems/gas/short-term-trading-market-sttm/data-sttm/daily-sttm-reports",
+    "history": [
+      {
+        "date": "2026-02-09",
+        "value": 11.0,
+        "sourceUrl": "https://www.aemo.com.au/-/media/files/gas/sttm/market-notices/2026/sttm-event-report---administered-ex-post-state-for-gas-day-9-feb.pdf?rev=c4d5811aa65d41189cffc13027be1d67&sc_lang=en",
+        "publishedOn": "2026-03-20"
+      }
+    ],
+    "note": "Day-ahead wholesale gas price. The archived 9 February reading comes from AEMO’s STTM event report, Table 1."
+  },
+  {
+    "id": "ron95",
+    "name": "RON95 retail",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 4.52,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 4.67,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 4.62,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 4.32,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 4.42,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 4.27,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 3.87,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 3.72,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "ron97",
+    "name": "RON97 retail",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 5,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 5.15,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 5.1,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 4.8,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 4.9,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 4.7,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 4.2,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 4,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "diesel",
+    "name": "Peninsular diesel",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 5.27,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 5.27,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 5.17,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 5.07,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 5.27,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 5.12,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 4.87,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 4.72,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Unsubsidised pump price per litre for Peninsular Malaysia, indexed by effective date."
+  },
+  {
+    "id": "ron95_budi95",
+    "name": "BUDI95",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 1.99,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 1.99,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 1.99,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 1.99,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 1.99,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 1.99,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 1.99,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 1.99,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "diesel_budi",
+    "name": "BUDI Diesel",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 2.1,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 2.1,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 2.1,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 2.1,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 2.1,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 2.1,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2.1,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 2.1,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "ron95_skps",
+    "name": "SKPS petrol",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 2.05,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 2.05,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 2.05,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 2.05,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 2.05,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 2.05,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2.05,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 2.05,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "diesel_skds",
+    "name": "SKDS diesel",
+    "group": "Malaysian fuels",
+    "unit": "MYR/L",
+    "cadence": "Weekly",
+    "source": "Malaysia Ministry of Finance",
+    "url": "https://data.gov.my/data-catalogue/fuelprice",
+    "history": [
+      {
+        "date": "2026-10-01",
+        "value": 2.15,
+        "publishedOn": "2026-09-30",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-30092026"
+      },
+      {
+        "date": "2026-10-08",
+        "value": 2.15,
+        "publishedOn": "2026-10-07",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/kekangan-bekalan-produk-petroleum-bertapis-dorong-kenaikan-harga-petrol-tanpa-subsidi"
+      },
+      {
+        "date": "2026-10-15",
+        "value": 2.15,
+        "publishedOn": "2026-10-14",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-5-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-22",
+        "value": 2.15,
+        "publishedOn": "2026-10-21",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-petrol-tanpa-subsidi-turun-30-sen-seliter-diesel-tanpa-subsidi-turun-10-sen-seliter"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 2.15,
+        "publishedOn": "2026-10-28",
+        "sourceUrl": "https://mof.gov.my/portal/ms/berita/siaran-media/harga-petroleum-28102026"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 2.15,
+        "publishedOn": "2026-11-04",
+        "sourceUrl": "https://www.mof.gov.my/portal/ms/berita/siaran-media/harga-ron97-turun-20-sen-seliter-ron95-dan-diesel-tanpa-subsidi-turun-15-sen-seliter"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2.15,
+        "publishedOn": "2026-11-11",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/11/Siaran-Media-Harga-Petroleum-11112026.pdf"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 2.15,
+        "publishedOn": "2026-11-18",
+        "sourceUrl": "https://www.mof.gov.my/portal/images/2026/11/18/Siaran-Media-Harga-Produk-Petrol-18112026.pdf"
+      }
+    ],
+    "note": "Official retail price per litre, indexed by effective date."
+  },
+  {
+    "id": "be_e10",
+    "name": "Belgium · 95 E10 petrol cap",
+    "group": "Belgian fuel caps",
+    "unit": "EUR/L",
+    "cadence": "Daily",
+    "source": "FPS Economy / Statbel",
+    "url": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=772cef7e-f9c5-4f88-b7bd-6b514bed4800",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://statbel.fgov.be/en/cc-40",
+    "note": "VAT-inclusive maximum price per litre at the pump for Belgian 95 RON E10 petrol. Source: Belgian FPS Economy, Directorate General Energy, via Statbel (CC BY 4.0).",
+    "history": [
+      {
+        "date": "2026-10-22",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-23",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-24",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-25",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-26",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-27",
+        "value": 2.002,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-28",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-30",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-01",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-02",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-03",
+        "value": 1.988,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-04",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-06",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-07",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-08",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-09",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-10",
+        "value": 1.905,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-11",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-13",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-14",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-15",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-16",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-17",
+        "value": 1.842,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-18",
+        "value": 1.819,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 1.819,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-20",
+        "value": 1.819,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-21",
+        "value": 1.819,
+        "sourceUrl": "https://petrolprices.economie.fgov.be/petrolprices/?locale=en",
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-22",
+        "value": 1.819,
+        "sourceUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=ef2a5bfb-a361-47a6-b113-e3df26563404",
+        "observedAt": "2026-11-22T15:53:05Z"
+      }
+    ]
+  },
+  {
+    "id": "be_diesel",
+    "name": "Belgium · B7 diesel cap",
+    "group": "Belgian fuel caps",
+    "unit": "EUR/L",
+    "cadence": "Daily",
+    "source": "FPS Economy / Statbel",
+    "url": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=772cef7e-f9c5-4f88-b7bd-6b514bed4800",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://statbel.fgov.be/en/cc-40",
+    "note": "VAT-inclusive maximum price per litre at the pump for Belgian B7 road diesel. Source: Belgian FPS Economy, Directorate General Energy, via Statbel (CC BY 4.0).",
+    "history": [
+      {
+        "date": "2026-10-22",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-23",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-24",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-25",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-26",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-27",
+        "value": 2.444,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-28",
+        "value": 2.51,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 2.51,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-30",
+        "value": 2.486,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-01",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-02",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-03",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-04",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-06",
+        "value": 2.452,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-07",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-08",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-09",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-10",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-11",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-13",
+        "value": 2.369,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-14",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-15",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-16",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-17",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-18",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 2.332,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-20",
+        "value": 2.274,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-21",
+        "value": 2.274,
+        "sourceUrl": "https://petrolprices.economie.fgov.be/petrolprices/?locale=en",
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-22",
+        "value": 2.274,
+        "sourceUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=ef2a5bfb-a361-47a6-b113-e3df26563404",
+        "observedAt": "2026-11-22T15:53:05Z"
+      }
+    ]
+  },
+  {
+    "id": "be_heatingoil",
+    "name": "Belgium · heating oil cap",
+    "group": "Belgian fuel caps",
+    "unit": "EUR/L",
+    "cadence": "Daily",
+    "source": "FPS Economy / Statbel",
+    "url": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=772cef7e-f9c5-4f88-b7bd-6b514bed4800",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://statbel.fgov.be/en/cc-40",
+    "note": "VAT-inclusive maximum price per litre of Belgian H0/H7 heating gasoil for deliveries of at least 2,000 litres. Source: Belgian FPS Economy, Directorate General Energy, via Statbel (CC BY 4.0).",
+    "history": [
+      {
+        "date": "2026-10-22",
+        "value": 1.5443,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-23",
+        "value": 1.5256,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-24",
+        "value": 1.5412,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-25",
+        "value": 1.5412,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-26",
+        "value": 1.5412,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-27",
+        "value": 1.586,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-28",
+        "value": 1.6069,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-29",
+        "value": 1.5588,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-30",
+        "value": 1.5708,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-10-31",
+        "value": 1.5349,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-01",
+        "value": 1.5349,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-02",
+        "value": 1.5349,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-03",
+        "value": 1.5349,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-04",
+        "value": 1.4846,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-05",
+        "value": 1.5017,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-06",
+        "value": 1.4307,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-07",
+        "value": 1.4365,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-08",
+        "value": 1.4365,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-09",
+        "value": 1.4365,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-10",
+        "value": 1.4458,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-11",
+        "value": 1.4011,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-12",
+        "value": 1.4011,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-13",
+        "value": 1.4021,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-14",
+        "value": 1.3804,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-15",
+        "value": 1.3804,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-16",
+        "value": 1.3804,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-17",
+        "value": 1.4265,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-18",
+        "value": 1.3957,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-19",
+        "value": 1.3689,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-20",
+        "value": 1.3376,
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-21",
+        "value": 1.3206,
+        "sourceUrl": "https://petrolprices.economie.fgov.be/petrolprices/?locale=en",
+        "observedAt": "2026-11-22T15:51:13Z"
+      },
+      {
+        "date": "2026-11-22",
+        "value": 1.3206,
+        "sourceUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=ef2a5bfb-a361-47a6-b113-e3df26563404",
+        "observedAt": "2026-11-22T15:53:05Z"
+      }
+    ]
+  }
+]

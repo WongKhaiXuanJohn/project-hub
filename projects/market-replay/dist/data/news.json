@@ -1,0 +1,83 @@
+[
+  {
+    "id": "98479609b327cb88",
+    "date": "2026-11-20",
+    "category": "Energy",
+    "source": "ACER",
+    "title": "European LNG assessment falls 5% in a day",
+    "summary": "The EU-wide assessment reached €80.736/MWh, down from €85.002/MWh on 19 November. Northwest and southern Europe also recorded lower assessments.",
+    "url": "https://aegis.acer.europa.eu/terminal/price_assessments"
+  },
+  {
+    "id": "0afa39e13289fccd",
+    "date": "2026-11-19",
+    "category": "Energy",
+    "source": "U.S. EIA",
+    "title": "Oil shipments through Middle East chokepoints rose 19% in Q3",
+    "summary": "EIA found higher combined oil and product shipments than in the prior quarter. Hormuz and Suez volumes rose, while Bab el-Mandeb volumes fell.",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68485"
+  },
+  {
+    "id": "a4c390e9c48b4825",
+    "date": "2026-11-18",
+    "category": "Energy",
+    "source": "U.S. EIA",
+    "title": "US gas storage enters winter above its five-year average",
+    "summary": "The Lower 48 finished October with 3,810 billion cubic feet of working gas, nearly 2% above average. Stocks were already elevated at the start of the injection season.",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68484"
+  },
+  {
+    "id": "e88bc937214729b3",
+    "date": "2026-11-18",
+    "category": "AI",
+    "source": "OpenAI",
+    "title": "OpenAI reports chip-design results on Jalapeño and open processors",
+    "summary": "OpenAI describes how engineers used models to improve compute blocks for its inference chip and tested successive models on two open-source processor designs.",
+    "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+  },
+  {
+    "id": "f539fcdaf975fdb9",
+    "date": "2026-11-18",
+    "category": "AI",
+    "source": "Google",
+    "title": "Google introduces Gemini 4 Neon",
+    "summary": "Google reports a score of 61 on the Artificial Analysis Intelligence Index at its highest thinking setting. The launch targets complex coding and knowledge work.",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+  },
+  {
+    "id": "0fb76b8d23388056",
+    "date": "2026-11-17",
+    "category": "AI",
+    "source": "OpenAI",
+    "title": "OpenAI releases GPT-6.2 Astra and Sol to developers",
+    "summary": "Both models accept text and images. OpenAI positions Astra for demanding reasoning and Sol for lower-cost multi-step tasks.",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+  },
+  {
+    "id": "166d6124867c787b",
+    "date": "2026-11-17",
+    "category": "AI",
+    "source": "NVIDIA",
+    "title": "NVIDIA reports $107.6 billion in quarterly data centre revenue",
+    "summary": "The segment grew 110% year over year in the quarter ending 25 October. NVIDIA also reported its first shipments of the Vera Rubin NVL72 platform.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+  },
+  {
+    "id": "e1ed4748ad577096",
+    "date": "2026-11-13",
+    "category": "Energy",
+    "source": "IEA",
+    "title": "IEA projects a 2026 oil demand decline and a rebound in 2027",
+    "summary": "Its November outlook puts 2026 global demand at 102.3 million barrels a day and forecasts a two-million-barrel-a-day increase next year.",
+    "url": "https://www.iea.org/reports/oil-market-report-november-2026"
+  },
+  {
+    "id": "e3f23c3f0faa7979",
+    "date": "2026-11-12",
+    "category": "Energy",
+    "source": "U.S. EIA",
+    "title": "North Slope projects lift Alaska oil output forecast",
+    "summary": "EIA expects production to reach 505,000 barrels per day in 2027, a 13% rise on the prior year if realised.",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444"
+  }
+]

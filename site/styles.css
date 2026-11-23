@@ -15,3 +15,13 @@
 @media(max-width:900px){.nav-link{font-size:12px}.card-description{min-height:86px}.card-tags{min-height:22px}.collection-strip span{font-size:11px}.intro-copy{font-size:13px}}
 @media(max-width:680px){.intro-art{opacity:.25}.intro-copy{max-width:320px;font-size:13px}.nav-link{font-size:11px}.public-label{font-size:10px}.collection-strip span{font-size:10px}.card-title{font-size:15px}.card-description{font-size:11px;min-height:117px}.card-category{font-size:8px}.card-tag{font-size:8px}.card-footer,.details-button{font-size:10px}.category-filter{font-size:11px;padding:5px 10px}.search-box input{font-size:12px}.featured-copy p{font-size:11px}.featured-cta{font-size:10px}.projects-heading p:last-child{font-size:11px}.next-idea p:last-child{font-size:10px}.next-idea .text-button{font-size:11px}.list-layout .card-description{font-size:11px;min-height:0}.list-layout .card-tags{min-height:0}footer{font-size:9px}}
 @media(max-width:380px){.card-description{min-height:0;font-size:12px}.card-title{font-size:17px}}
+
+.art-market-replay { background: #193434; }
+.art-market-replay img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.art-market-replay::after { content: none; }

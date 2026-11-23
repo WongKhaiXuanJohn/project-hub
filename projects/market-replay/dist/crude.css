@@ -1,0 +1,31 @@
+.crude-launch {
+  margin-top: .8rem;
+  width: 100%;
+  min-height: 2.65rem;
+  padding: .55rem .9rem;
+  border: 1px solid #664537;
+  border-radius: .45rem;
+  background: #32231d;
+  color: #ffb497;
+  font-size: .875rem;
+  font-weight: 600;
+  text-align: center;
+}
+.crude-launch:hover { background: #412b21; border-color: #9c6346; }
+.crude-dialog { --dialog-width: 46rem; }
+.crude-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: .875rem; }
+.crude-dialog-head h2 { font-size: clamp(1.2rem, 2.6vw, 1.625rem); text-wrap: balance; }
+.crude-credit, .crude-dialog-foot { color: var(--muted); font-size: .875rem; line-height: 1.5; }
+.crude-credit { margin: .875rem 0; }
+.crude-switch { display: inline-flex; flex-wrap: wrap; gap: .25rem; padding: .2rem; background: #212427; border-radius: .45rem; }
+.crude-switch button { background: transparent; color: #c0c2c0; border: 0; padding: .5rem .75rem; border-radius: .3rem; font-size: .875rem; }
+.crude-switch button[aria-pressed="true"] { color: #20130e; background: #ff9a70; font-weight: 600; }
+.crude-display { margin: .85rem 0; border-radius: .35rem; background: #fff; overflow: hidden; }
+.crude-frame { box-sizing: border-box; display: block; width: 100%; border: 0; color-scheme: light; }
+.crude-quotes { height: 16rem; }
+.crude-dialog-foot { display: flex; gap: .45rem 1.2rem; flex-wrap: wrap; justify-content: space-between; align-items: baseline; }
+@media (max-width: 450px) { .crude-quotes { height: 18rem; } }
+@media (pointer: coarse) {
+  .crude-launch,.crude-switch button {min-height:2.75rem}
+  .crude-dialog-foot .mk-link {padding-block:.6rem}
+}

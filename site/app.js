@@ -40,6 +40,7 @@ function showToast(message) {
 
 function projectArt(project) {
   const visuals = {
+    'market-replay': '<img src="./assets/market-replay-lng.webp" width="1280" height="640" alt="" loading="lazy" decoding="async">',
     carve: '<span class="carve-ring"></span><span class="carve-ring second"></span><span class="preview-wordmark">carve<sup>®</sup></span><span class="preview-caption">THE EVERYDAY, SIMPLIFIED.</span>',
     ironpath: '<span class="ironpath-bars"><i></i><i></i><i></i><i></i></span><span class="ironpath-lockup"><svg viewBox="0 0 28 28"><path d="M6 8v12M3 11v6M22 8v12M25 11v6M6 14h16"/></svg><strong>Ironpath</strong></span><span class="preview-caption">BUILT ONE DAY AT A TIME.</span>',
     avalon: '<span class="avalon-orbit"></span><span class="avalon-lockup"><svg viewBox="0 0 45 45"><path d="m7 15 7 6 8.5-13L31 21l7-6-4 19H11L7 15Zm4 14h23M18 34v5m9-5v5m-12 0h15"/><path d="M22.5 1v4M2 10l3 2m35 0 3-2"/></svg><strong>AVALON</strong><small>LET THE STORY BEGIN.</small></span>',

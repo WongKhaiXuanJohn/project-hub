@@ -43,7 +43,8 @@
     "status": "Live",
     "tags": ["Energy markets", "AI news"],
     "url": "https://market-replay-energy-ai.wkxj.chatgpt.site",
-    "theme": "generic",
+    "source": "https://github.com/WongKhaiXuanJohn/project-hub/tree/master/projects/market-replay",
+    "theme": "market-replay",
     "featured": false
   }
 ]
