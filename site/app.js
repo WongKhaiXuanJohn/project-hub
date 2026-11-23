@@ -143,7 +143,9 @@ async function loadProjects() {
   $('#load-error').hidden = true;
   $('#results-label').textContent = 'Loading the collection…';
   try {
-    const response = await fetch('./projects.json');
+    const catalogURL = new URL('./projects.json', import.meta.url);
+    catalogURL.search = new URL(import.meta.url).search;
+    const response = await fetch(catalogURL, { cache: 'no-cache' });
     if (!response.ok) throw new Error('Could not load project catalog');
     const catalog = await response.json();
     if (!Array.isArray(catalog) || catalog.some(project => !project || typeof project.id !== 'string' || typeof project.name !== 'string' || typeof project.description !== 'string' || typeof project.category !== 'string' || !Array.isArray(project.tags))) throw new Error('Invalid project catalog');
